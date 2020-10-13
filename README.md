@@ -1,7 +1,7 @@
 # junkshon src ipscan
 Scans directories and files for IP addresses inside source code and/or configuration files. 
 
-The program scans files and outputs to a JSON file. 
+The program scans files and outputs to a JSON file, the JSON file can be read by the junkshon platform if it is uploaded.
 
 # requirements 
 Requires python3 to run.

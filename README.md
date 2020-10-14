@@ -11,10 +11,12 @@ You will require the appropriate permissions to read the source code repo or con
 1. To configure the programme you need to add your source code directory path into the source_directory keypair called "junkshon_ipscan.json".
 2. You can also configure the out file name in the scan_output_file key/pair in the "junkshon_ipscan.json" JSON file.
 
+```
 {
     "source_directory": "/app/src/",
     "scan_output_file": "ipscan_1.json"
 }
+```
 
 3. Once the file has been configured you can run the python program as follows, at the comment prompt enter: 
 
@@ -24,7 +26,7 @@ You will require the appropriate permissions to read the source code repo or con
 
 5. The output of the scan will result in a JSON file with the following structure. Each file with a pattern matching an IP address is written to the file with the path to the soruce file and the IP addresses found. 
 
-
+```
 [
     {
         "filepath": "/app/startdev.sh",
@@ -44,6 +46,7 @@ You will require the appropriate permissions to read the source code repo or con
         ]
     }
 ]
+```
 
 The resulting file can then be used to represent a overview of source files with IP address values. 
 

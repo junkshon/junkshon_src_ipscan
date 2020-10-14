@@ -52,6 +52,10 @@ The resulting file can then be used to represent a overview of source files with
 
 ---
 
+Some options that you can consider when using this script is to include it into your developed Pipeline to validate and report on violations for hardcoded IP addresses. 
+
+--
+
 To clone using HTTPS:
 
 git clone https://github.com/junkshon/junkshon_src_ipscan.git 
